@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 
 const userProfile = () => {
+  
   const currentUser = window.localStorage.getItem("email");
   const data = { currentUser };
 
